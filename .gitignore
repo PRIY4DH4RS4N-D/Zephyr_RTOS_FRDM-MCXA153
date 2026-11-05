@@ -1,0 +1,16 @@
+# MCUXpresso CMake outputs
+**/debug/
+**/release/
+**/build/
+**/CMakeFiles/
+**/CMakeCache.txt
+**/compile_commands.json
+**/*.elf
+**/*.bin
+**/*.hex
+**/*.map
+**/*.obj
+**/*.o
+**/*.su
+**/*.bak
+.vscode/
