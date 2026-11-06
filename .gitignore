@@ -14,3 +14,37 @@
 **/*.su
 **/*.bak
 .vscode/
+
+# Zephyr, CMake and west generated directories
+**/build*/
+**/_build*/
+**/.cache/
+**/Testing/
+**/twister-out*/
+.west/
+
+# Python environments and caches
+.venv/
+venv/
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local logs and IDE/temporary state; curated evidence is retained as TXT.
+*.log
+.idea/
+*.code-workspace
+*.user
+*.swp
+*.tmp
+*.orig
+*.rej
+.DS_Store
+Thumbs.db
+
+# Local environment and credential material
+.env
+.env.*
+*.pem
+*.key
+credentials.json

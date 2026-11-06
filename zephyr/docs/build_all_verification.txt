@@ -1,0 +1,10 @@
+ninja: no work to do.
+ninja: no work to do.
+ninja: no work to do.
+ninja: no work to do.
+ninja: no work to do.
+PASS 01_rtos_message_pipeline: flash=78156/131072 RAM=19176/24576
+PASS 02_interrupt_button_fsm: flash=81364/131072 RAM=18464/24576
+PASS 03_realtime_jitter_profiler: flash=76724/131072 RAM=17136/24576
+PASS 04_onboard_thermal_monitor: flash=101328/131072 RAM=20728/24576
+PASS 05_task_watchdog_supervisor: flash=81608/131072 RAM=19320/24576

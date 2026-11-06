@@ -1,0 +1,7 @@
+sample:
+  name: 04_onboard_thermal_monitor
+tests:
+  portfolio.onboard_thermal_monitor:
+    platform_allow: frdm_mcxa153
+    tags: demo
+    build_only: true

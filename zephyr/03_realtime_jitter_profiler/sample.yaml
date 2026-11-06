@@ -1,0 +1,7 @@
+sample:
+  name: 03_realtime_jitter_profiler
+tests:
+  portfolio.realtime_jitter_profiler:
+    platform_allow: frdm_mcxa153
+    tags: demo
+    build_only: true

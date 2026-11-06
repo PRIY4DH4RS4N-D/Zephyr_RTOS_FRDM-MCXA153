@@ -1,0 +1,7 @@
+sample:
+  name: 01_rtos_message_pipeline
+tests:
+  portfolio.rtos_message_pipeline:
+    platform_allow: frdm_mcxa153
+    tags: demo
+    build_only: true

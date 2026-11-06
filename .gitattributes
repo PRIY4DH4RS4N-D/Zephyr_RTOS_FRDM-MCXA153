@@ -1,0 +1,29 @@
+# Consistent text across Windows development and GitHub rendering.
+* text=auto
+*.c text eol=lf
+*.h text eol=lf
+*.cmake text eol=lf
+*.conf text eol=lf
+*.overlay text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.yaml text eol=lf
+*.yml text eol=lf
+*.py text eol=lf
+*.ps1 text eol=lf
+*.txt text eol=lf
+*.png binary
+*.jpg binary
+*.jpeg binary
+
+# Preserve verified firmware/configuration bytes, including original line endings.
+# Disable text translation only; diffs remain readable as ordinary source text.
+zephyr/*/CMakeLists.txt -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+zephyr/*/Kconfig -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+zephyr/*/prj.conf -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+zephyr/*/app.overlay -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+zephyr/*/sample.yaml -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+zephyr/*/src/*.c -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+zephyr/*/src/*.h -text whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+/.gitattributes text eol=lf
+/.gitignore text eol=lf

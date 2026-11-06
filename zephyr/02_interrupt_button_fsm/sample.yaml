@@ -1,0 +1,7 @@
+sample:
+  name: 02_interrupt_button_fsm
+tests:
+  portfolio.interrupt_button_fsm:
+    platform_allow: frdm_mcxa153
+    tags: demo
+    build_only: true

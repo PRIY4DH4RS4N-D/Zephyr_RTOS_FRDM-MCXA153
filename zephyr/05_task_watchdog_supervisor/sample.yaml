@@ -1,0 +1,7 @@
+sample:
+  name: 05_task_watchdog_supervisor
+tests:
+  portfolio.task_watchdog_supervisor:
+    platform_allow: frdm_mcxa153
+    tags: demo
+    build_only: true

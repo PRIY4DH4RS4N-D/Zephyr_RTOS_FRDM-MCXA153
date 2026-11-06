@@ -1,0 +1,5 @@
+mainmenu "FRDM MCXA153 demo"
+source "Kconfig.zephyr"
+config APP_AUTOTEST
+ bool "Run predefined startup tests"
+ default y

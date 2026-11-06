@@ -1,0 +1,5 @@
+/* Standalone images boot directly from flash; no MCUboot required. */
+&lpuart0 { current-speed = <115200>; };
+&zephyr_udc0 { status = "disabled"; };
+/* Avoid instantiating an unrelated analog-comparator sensor driver. */
+&lpcmp0 { status = "disabled"; };

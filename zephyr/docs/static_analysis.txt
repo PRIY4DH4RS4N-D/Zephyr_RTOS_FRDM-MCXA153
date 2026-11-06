@@ -1,0 +1,13 @@
+ARM GNU static analyzer: real Zephyr board compiler flags; -fanalyzer -Werror.
+This is offline source analysis, not runtime/hardware testing.
+
+01_rtos_message_pipeline/main.c: PASS
+01_rtos_message_pipeline/common.c: PASS
+02_interrupt_button_fsm/main.c: PASS
+02_interrupt_button_fsm/common.c: PASS
+03_realtime_jitter_profiler/main.c: PASS
+03_realtime_jitter_profiler/common.c: PASS
+04_onboard_thermal_monitor/main.c: PASS
+04_onboard_thermal_monitor/common.c: PASS
+05_task_watchdog_supervisor/main.c: PASS
+05_task_watchdog_supervisor/common.c: PASS

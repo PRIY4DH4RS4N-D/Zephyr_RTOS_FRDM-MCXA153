@@ -1,0 +1,67 @@
+[
+  {
+    "project": "01_rtos_message_pipeline",
+    "source_hashes": {
+      "CMakeLists.txt": "0f8d9cdf9464b2d1a1074e166b9decd2f6ce2cdbacfbec7ece08fcd5ccc8613f",
+      "Kconfig": "3bb6562c4c2deec93f7c70a852c5aae328921be94a80ff939bdaf81421dc18a3",
+      "prj.conf": "3b54318aa1bf2b56ade3977f2309c28f13f926ce2d4ebd57ce5f20501a81d75b",
+      "app.overlay": "65ad812b66337f40d6e4b92c1b45ce718ca240c3c36dc6c46dd8bd9dedf0adc1",
+      "src\\main.c": "ad60144209554d5c7318317fe05e5777ccc92c44fabb381805a9a07951c818d8",
+      "src\\common.c": "a3257fa201c1456f24726482607dab809b3107830941a803f247d896d1bed9f5",
+      "src\\app.h": "fa2f93a41e0fe200a5f63680b982015358baa966f9a86f2cc93b12f92273513f"
+    },
+    "compiled_objects_newer_than_source": true
+  },
+  {
+    "project": "02_interrupt_button_fsm",
+    "source_hashes": {
+      "CMakeLists.txt": "93e0f66b80474c7fd0861d4ebecf6087f63f249390cac8b1c7870f9fb89b1274",
+      "Kconfig": "3bb6562c4c2deec93f7c70a852c5aae328921be94a80ff939bdaf81421dc18a3",
+      "prj.conf": "3b54318aa1bf2b56ade3977f2309c28f13f926ce2d4ebd57ce5f20501a81d75b",
+      "app.overlay": "65ad812b66337f40d6e4b92c1b45ce718ca240c3c36dc6c46dd8bd9dedf0adc1",
+      "src\\main.c": "fc6d2e5a765cb7780743bb4bcd455517cb155d7f93dbe0a7b6d0260526bc4bee",
+      "src\\common.c": "a3257fa201c1456f24726482607dab809b3107830941a803f247d896d1bed9f5",
+      "src\\app.h": "fa2f93a41e0fe200a5f63680b982015358baa966f9a86f2cc93b12f92273513f"
+    },
+    "compiled_objects_newer_than_source": true
+  },
+  {
+    "project": "03_realtime_jitter_profiler",
+    "source_hashes": {
+      "CMakeLists.txt": "627dc556e54b37c013451a2466c6fd4ae1ff517f922f95cad44a7523fa4d5fe1",
+      "Kconfig": "3bb6562c4c2deec93f7c70a852c5aae328921be94a80ff939bdaf81421dc18a3",
+      "prj.conf": "0a4a134691d3cfbdbc6f089978a2e2e691681b5225717af14eac59401a7113a9",
+      "app.overlay": "65ad812b66337f40d6e4b92c1b45ce718ca240c3c36dc6c46dd8bd9dedf0adc1",
+      "src\\main.c": "a55ac532c8345f299e1d6426ff3def8cb7aaa7f2880ee878c172a4f3dc4390a3",
+      "src\\common.c": "a3257fa201c1456f24726482607dab809b3107830941a803f247d896d1bed9f5",
+      "src\\app.h": "fa2f93a41e0fe200a5f63680b982015358baa966f9a86f2cc93b12f92273513f"
+    },
+    "compiled_objects_newer_than_source": true
+  },
+  {
+    "project": "04_onboard_thermal_monitor",
+    "source_hashes": {
+      "CMakeLists.txt": "a5e0ddcdac5b5e59449aff3c11c836d39caadbb0392abb36ca853d53f76f91ef",
+      "Kconfig": "3bb6562c4c2deec93f7c70a852c5aae328921be94a80ff939bdaf81421dc18a3",
+      "prj.conf": "6b776af83d7c83faa87954b991e7f8ad06a28bca9a59372d8265f4d63698b575",
+      "app.overlay": "ec34e53fa9c8a8bede68fcf7ebe04092cc8f192b2488cd6a35b00bedad4c206a",
+      "src\\main.c": "d712c3832611a7c49b1c4dec07a064e75df7f3b48d0a011c0d7b02924719db2e",
+      "src\\common.c": "a3257fa201c1456f24726482607dab809b3107830941a803f247d896d1bed9f5",
+      "src\\app.h": "fa2f93a41e0fe200a5f63680b982015358baa966f9a86f2cc93b12f92273513f"
+    },
+    "compiled_objects_newer_than_source": true
+  },
+  {
+    "project": "05_task_watchdog_supervisor",
+    "source_hashes": {
+      "CMakeLists.txt": "317d34faa907386601099445afbf5bd28f463d548dc1559dfa9b3d32be77c136",
+      "Kconfig": "3bb6562c4c2deec93f7c70a852c5aae328921be94a80ff939bdaf81421dc18a3",
+      "prj.conf": "16e2a4abf6a80ddbf565976168153a41a8d33ce2786f85705d94be694ff4653e",
+      "app.overlay": "65ad812b66337f40d6e4b92c1b45ce718ca240c3c36dc6c46dd8bd9dedf0adc1",
+      "src\\main.c": "5b52aaff224d3d610902f67abf6fa8b98509ee813ac4a40db253b4e7fa01349d",
+      "src\\common.c": "a3257fa201c1456f24726482607dab809b3107830941a803f247d896d1bed9f5",
+      "src\\app.h": "fa2f93a41e0fe200a5f63680b982015358baa966f9a86f2cc93b12f92273513f"
+    },
+    "compiled_objects_newer_than_source": true
+  }
+]

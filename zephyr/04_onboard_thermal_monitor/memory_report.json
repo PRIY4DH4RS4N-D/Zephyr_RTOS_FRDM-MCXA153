@@ -1,0 +1,71 @@
+{
+  "project": "04_onboard_thermal_monitor",
+  "build": "build-verified",
+  "status": "PASS (offline build/configuration/binary audit)",
+  "flash_bytes": 101328,
+  "flash_region_bytes": 131072,
+  "flash_free_bytes": 29744,
+  "flash_percent": 77.31,
+  "ram_bytes": 20728,
+  "ram_region_bytes": 24576,
+  "ram_free_bytes": 3848,
+  "ram_percent": 84.34,
+  "bss_bytes": 7877,
+  "noinit_bytes": 12224,
+  "initialized_ram_section_bytes": 620,
+  "vectors": {
+    "_vector_table": {
+      "address": 0,
+      "bytes": 64
+    },
+    "_irq_vector_table": {
+      "address": 64,
+      "bytes": 320
+    },
+    "_sw_isr_table": {
+      "address": 77804,
+      "bytes": 640
+    }
+  },
+  "configured_external_irqs": 80,
+  "stack_symbols": {
+    "shell_uart_stack": 2048,
+    "i3c_ibi_work_q_stack": 1024,
+    "z_idle_stacks": 256,
+    "sys_work_q_stack": 1536,
+    "z_main_stack": 2048,
+    "logging_stack": 1024,
+    "z_interrupt_stacks": 2048,
+    "_k_thread_stack_sensor_thread": 1536
+  },
+  "stack_config": {
+    "CONFIG_SYSTEM_WORKQUEUE_STACK_SIZE": "1536",
+    "CONFIG_MAIN_STACK_SIZE": "2048",
+    "CONFIG_SHELL_STACK_SIZE": "2048",
+    "CONFIG_IDLE_STACK_SIZE": "256",
+    "CONFIG_ISR_STACK_SIZE": "2048",
+    "CONFIG_LOG_PROCESS_THREAD_STACK_SIZE": "1024",
+    "CONFIG_I3C_IBI_WORKQUEUE_STACK_SIZE": "1024"
+  },
+  "heap_pool_bytes": 0,
+  "log_buffer_bytes": 4096,
+  "initial_sp": "0x20004a38",
+  "reset_vector": "0x6bcd",
+  "artifacts": {
+    "elf": {
+      "bytes": 2596128,
+      "sha256": "a917d411b2970b19b7e2e877fd7d4fec00e18939b37174664eba4273fae78c2d"
+    },
+    "hex": {
+      "bytes": 285124,
+      "sha256": "c82a9cce0844ca5f1dda2d04af0a631f9eb788642933277617f8feb6c5d7f4b3"
+    },
+    "bin": {
+      "bytes": 101328,
+      "sha256": "edab522e98fd144dad7ef340ff6b9a229eb9a2c3f7d6634d02eb89b168d2f153"
+    }
+  },
+  "hardware_verification": "PENDING",
+  "text_section_bytes": 76732,
+  "rodata_section_bytes": 21376
+}

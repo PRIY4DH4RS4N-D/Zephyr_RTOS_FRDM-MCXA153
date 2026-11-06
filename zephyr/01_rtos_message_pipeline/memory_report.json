@@ -1,0 +1,70 @@
+{
+  "project": "01_rtos_message_pipeline",
+  "build": "build-verified",
+  "status": "PASS (offline build/configuration/binary audit)",
+  "flash_bytes": 78156,
+  "flash_region_bytes": 131072,
+  "flash_free_bytes": 52916,
+  "flash_percent": 59.63,
+  "ram_bytes": 19176,
+  "ram_region_bytes": 24576,
+  "ram_free_bytes": 5400,
+  "ram_percent": 78.03,
+  "bss_bytes": 7263,
+  "noinit_bytes": 11488,
+  "initialized_ram_section_bytes": 424,
+  "vectors": {
+    "_vector_table": {
+      "address": 0,
+      "bytes": 64
+    },
+    "_irq_vector_table": {
+      "address": 64,
+      "bytes": 320
+    },
+    "_sw_isr_table": {
+      "address": 59576,
+      "bytes": 640
+    }
+  },
+  "configured_external_irqs": 80,
+  "stack_symbols": {
+    "shell_uart_stack": 2048,
+    "z_idle_stacks": 256,
+    "_k_thread_stack_worker_id": 1024,
+    "z_main_stack": 2048,
+    "_k_thread_stack_producer_id": 1024,
+    "logging_stack": 1024,
+    "z_interrupt_stacks": 2048,
+    "_k_thread_stack_logger_id": 1280
+  },
+  "stack_config": {
+    "CONFIG_SYSTEM_WORKQUEUE_STACK_SIZE": "1536",
+    "CONFIG_MAIN_STACK_SIZE": "2048",
+    "CONFIG_SHELL_STACK_SIZE": "2048",
+    "CONFIG_IDLE_STACK_SIZE": "256",
+    "CONFIG_ISR_STACK_SIZE": "2048",
+    "CONFIG_LOG_PROCESS_THREAD_STACK_SIZE": "1024"
+  },
+  "heap_pool_bytes": 0,
+  "log_buffer_bytes": 4096,
+  "initial_sp": "0x20004a08",
+  "reset_vector": "0x6865",
+  "artifacts": {
+    "elf": {
+      "bytes": 1719740,
+      "sha256": "1e47968cb1ca3703626e331feddb4837ada02dc4d1d0ca390a341e0166eb093f"
+    },
+    "hex": {
+      "bytes": 219985,
+      "sha256": "722dd381ba19f83453970236efb92e183621e883a92631074c3167b1d228ed92"
+    },
+    "bin": {
+      "bytes": 78156,
+      "sha256": "4cf0863fef98810caf69ad83e6253eed39765b6962b3bca8497109fbc837917d"
+    }
+  },
+  "hardware_verification": "PENDING",
+  "text_section_bytes": 58660,
+  "rodata_section_bytes": 16736
+}
