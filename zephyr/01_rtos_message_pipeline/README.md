@@ -80,4 +80,4 @@ Run from this directory. [Root build guide](../BUILD_GUIDE.md) includes direct w
 
 PuTTY COM23 or current VCOM port, 115200 8-N-1, flow control None. No RGB peripheral is needed by this application. The common GPIO helper is local but unused LED functions are removed by linker garbage collection. Console and shell use official LPUART0 pins P0.2/P0.3.
 
-[Actual memory report](MEMORY_REPORT.md) lists flash, SRAM, BSS, ISR/vector data, configured stacks and heap. Queue storage contains eight messages and eight results plus Zephyr metadata. Logs use a bounded 4096-byte deferred buffer. Physical operation, startup PASS results and measured stack margin: **PENDING**.
+[Actual memory report](MEMORY_REPORT.md) lists flash, SRAM, BSS, ISR/vector data, configured stacks and heap. Queue storage contains eight messages and eight results plus Zephyr metadata. Logs use a bounded 4096-byte deferred buffer.
