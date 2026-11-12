@@ -107,7 +107,7 @@ The [manual flashing guide](zephyr/docs/flashing_guide.md) provides checked Link
 
 No hardware screenshots or UART captures were available for these five applications. README output examples are illustrative, not captured test results. Known assertion-enabled and GNU ld RWX-segment notices are documented in the verification record.
 
-## Repository layout
+## Repository Layout
 
 ```text
 Zephyr_RTOS_FRDM-MCXA153/
