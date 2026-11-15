@@ -126,6 +126,6 @@ Zephyr_RTOS_FRDM-MCXA153/
     `-- scripts/                   # Build, analysis and publication checks
 ```
 
-## Contributing and license
+## Contributing and License
 
 See [CONTRIBUTING.md](CONTRIBUTING.md). The existing [BSD 3-Clause license](LICENSE) is unchanged. NXP-supplied files retain their copyright/SPDX notices; external Zephyr and HAL dependencies keep their upstream licenses. See [third-party notices](THIRD_PARTY_NOTICES.md).
