@@ -45,6 +45,6 @@ cmake --build --preset debug
 
 The resulting ELF is `debug/frdm_mcxa153_rgb_controller.elf`. The documented build was verified after packaging. Details for flashing and debugging are in [development_environment.md](../docs/development_environment.md).
 
-## Board wiring
+## Board Wiring
 
 The built-in LED uses P3_12 for red, P3_13 for green, and P3_0 for blue, all on GPIO3. No external wiring is needed beyond the board's USB connection. The [hardware note](docs/hardware_configuration.md) explains initialization and the active-low levels.
